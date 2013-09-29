@@ -1,6 +1,7 @@
 public int atoi(String str) {
     // Start typing your Java solution below
     // DO NOT write main() function
+
     String s = skipZeroes(str);
     
     int ret = 0, flag = 1, overflow = 0, posneg = 0;
